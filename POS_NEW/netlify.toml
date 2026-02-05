@@ -1,6 +1,10 @@
 [build]
+  base = "POS_NEW"
   publish = "docs"
   command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
 
 [[redirects]]
   from = "/*"
