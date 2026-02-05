@@ -7,5 +7,7 @@ export default defineConfig({
   base: './',
   build: {
     outDir: 'docs',
+    copyPublicDir: true,
   },
+  publicDir: 'public',
 })
